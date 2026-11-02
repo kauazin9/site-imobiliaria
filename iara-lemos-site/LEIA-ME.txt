@@ -1,0 +1,13 @@
+IARA LEMOS IMÓVEIS - SITE COMPLETO (última versão)
+
+COMO PUBLICAR NA VERCEL
+1. Envie esta pasta para um repositório no GitHub.
+2. Em vercel.com/new importe o repositório (preset "Other", sem build) e clique em Deploy.
+   Ou arraste a pasta para o painel da Vercel.
+
+COMO EDITAR
+- index.html é o site completo (as imagens e os vídeos já estão embutidos nele).
+- Imóveis: procure por "const IMOVEIS" no index.html. Preço null = "Consulte valores".
+- A pasta assets/ guarda as fotos, a logo e os vídeos otimizados, para você reutilizar.
+- A cena 3D carrega o Three.js do cdnjs (com reserva no jsdelivr), então precisa de internet.
+- WhatsApp: procure por NUM no index.html.
